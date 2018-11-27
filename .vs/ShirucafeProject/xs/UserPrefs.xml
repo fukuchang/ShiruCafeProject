@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{1B3B8843-8FDB-CFC9-E3A7-19F3E765AE29}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeColorScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CubeColorScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/ChangeColorScript.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/SphereColorScript.cs" Line="5" Column="20" />
+      <File FileName="Assets/Scripts/CubeColorScript.cs" Line="4" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeColorScript : MonoBehaviour {
+public class SphereColorScript : MonoBehaviour {
 
     Material m_Material;
     public Color m_color;
