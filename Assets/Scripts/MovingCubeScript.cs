@@ -8,7 +8,7 @@ public class MovingCubeScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        speed = Random.Range(0.9f, 1.1f);
+        speed = Random.Range(0.5f, 0.7f);
 	}
 	
 	// Update is called once per frame

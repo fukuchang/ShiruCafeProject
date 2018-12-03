@@ -156,6 +156,11 @@ Prefab:
       propertyPath: m_Name
       value: Sphere4
       objectReference: {fileID: 0}
+    - target: {fileID: 114350519269617230, guid: 7214fcacd920e4e75821792c722f5c6f,
+        type: 2}
+      propertyPath: keyword
+      value: f
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7214fcacd920e4e75821792c722f5c6f, type: 2}
   m_IsPrefabAsset: 0
@@ -375,6 +380,11 @@ Prefab:
       propertyPath: m_color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114350519269617230, guid: 7214fcacd920e4e75821792c722f5c6f,
+        type: 2}
+      propertyPath: keyword
+      value: s
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7214fcacd920e4e75821792c722f5c6f, type: 2}
   m_IsPrefabAsset: 0
@@ -518,6 +528,11 @@ Prefab:
     - target: {fileID: 4921346641059664, guid: 7214fcacd920e4e75821792c722f5c6f, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114350519269617230, guid: 7214fcacd920e4e75821792c722f5c6f,
+        type: 2}
+      propertyPath: keyword
+      value: a
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7214fcacd920e4e75821792c722f5c6f, type: 2}
@@ -1129,6 +1144,11 @@ Prefab:
     - target: {fileID: 1664177172468582, guid: 7214fcacd920e4e75821792c722f5c6f, type: 2}
       propertyPath: m_Name
       value: Sphere3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114350519269617230, guid: 7214fcacd920e4e75821792c722f5c6f,
+        type: 2}
+      propertyPath: keyword
+      value: d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7214fcacd920e4e75821792c722f5c6f, type: 2}

@@ -14,7 +14,7 @@ public class CubeColorScript : MonoBehaviour {
     public Color m_changedColor; //変更後の色の比率を確認するためのスクリプト
 
     [SerializeField]
-    private float m_changeSpeed = 5f;
+    private float m_changeSpeed = 4f;
     private float ratio;
     private Color m_preColor;
     //private Color m_changedColor;

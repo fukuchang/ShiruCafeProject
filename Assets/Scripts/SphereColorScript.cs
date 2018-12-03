@@ -9,6 +9,7 @@ public class SphereColorScript : MonoBehaviour {
     public GameObject[] m_target;
     public bool m_isChangeColor = false;
     public float m_colliderRadius;
+    public string keyword;
 
     Material m_Material;
     Color m_preColor;
@@ -30,6 +31,14 @@ public class SphereColorScript : MonoBehaviour {
             StartCoroutine("Wait");
         }
 
+
+        //Test Code
+        if (Input.GetKeyDown(keyword))
+        {
+            m_color = Test_ChangeRndColor();
+        }
+        //
+
         if(m_preColor != m_color){
             m_isChangeColor = true;
             childSphere.SetActive(true);
@@ -44,5 +53,14 @@ public class SphereColorScript : MonoBehaviour {
     IEnumerator Wait(){
         yield return new WaitForSeconds(0.5f);
         childSphere.SetActive(false);
+    }
+
+    Color Test_ChangeRndColor(){
+        Color testColor;
+        testColor.r = Random.Range(0f, 1f);
+        testColor.g = Random.Range(0f, 1f);
+        testColor.b = Random.Range(0f, 1f);
+        testColor.a = 1f;
+        return testColor;
     }
 }
