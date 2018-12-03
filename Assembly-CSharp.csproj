@@ -69,6 +69,10 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
     <Compile Include="Assets\Scripts\CubeColorScript.cs" />
+    <Compile Include="Assets\Scripts\DestroyCubeScript.cs" />
+    <Compile Include="Assets\Scripts\MovingCubeScript.cs" />
+    <Compile Include="Assets\Scripts\SearchCubeScript.cs" />
+    <Compile Include="Assets\Scripts\SpawnCubeScript.cs" />
     <Compile Include="Assets\Scripts\SphereColorScript.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
