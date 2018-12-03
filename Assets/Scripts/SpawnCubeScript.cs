@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class SpawnCubeScript : MonoBehaviour {
 
+    public float m_range = 15f;
+
 	// Use this for initialization
 	void Start () {
         StartCoroutine("Spawn");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     private IEnumerator Spawn(){
         while(true){
-            
-            yield return new WaitForSeconds(Random.Range(1.0f, 5.0f));
+            Vector3 spawnPos = transform.position;
+            yield return new WaitForSeconds(Random.Range(0.5f, 3.0f));
             GameObject instance = Instantiate(Resources.Load("subCube", typeof(GameObject)),
-                                              new Vector3(Random.Range(-10f, 10f),
-                                                          transform.position.y, 
-                                                          Random.Range(-10f, 10f)), 
+                                              new Vector3(Random.Range(spawnPos.x - m_range, spawnPos.x + m_range),
+                                                          spawnPos.y, 
+                                                          Random.Range(spawnPos.z - m_range, spawnPos.z + m_range)), 
                                               transform.rotation) as GameObject;
             instance.transform.parent = this.transform;
         }
