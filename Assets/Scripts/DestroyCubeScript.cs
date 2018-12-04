@@ -4,18 +4,9 @@ using UnityEngine;
 
 public class DestroyCubeScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    private void OnCollisionEnter(Collision col){
-        if (col.gameObject.tag == "ColorCube") {
+    //ある一定まで上に上がったら削除
+    private void OnTriggerEnter(Collider col){
+        if (col.tag == "ColorCube") {
             Destroy(col.gameObject);
         }
     }

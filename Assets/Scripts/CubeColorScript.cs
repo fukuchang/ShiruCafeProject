@@ -17,15 +17,12 @@ public class CubeColorScript : MonoBehaviour {
     private float m_changeSpeed = 4f;
     private float ratio;
     private Color m_preColor;
-    //private Color m_changedColor;
 
-	// Use this for initialization
 	void Start () {
         m_material = this.GetComponent<Renderer>().material;
         m_preColor = m_color;
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
         if(m_preColor != m_color){
             ratio = distance / m_denominator;
@@ -33,6 +30,7 @@ public class CubeColorScript : MonoBehaviour {
         }
 	}
 
+    //遠くなればなるほどCubeの伝播された色が薄くなる関数
     void BlendColor(float blendRatio){
         m_color = m_color + m_color * blendRatio;
         m_material.DOBlendableColor(m_color, m_changeSpeed * blendRatio).SetEase(Ease.InQuart);

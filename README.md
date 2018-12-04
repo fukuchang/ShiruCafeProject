@@ -10,3 +10,8 @@
 - Change Color ver1.03
   - asdfキーでそれぞれのSphereの色をランダムで変更
   - Sphereから遠くなればなるほどCubeの色が伝播元の色よりも薄くなるように設定
+
+- ShiruCafe Project ver1.10 beta版
+  - Cubeを小さくして大量に排出
+  - asdfに加えてzxキーでも他のSphereも変更
+  - スクリプトにコメントアウト
