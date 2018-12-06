@@ -22,13 +22,14 @@ GameObject:
   - component: {fileID: 33949478549420640}
   - component: {fileID: 23809494380246948}
   - component: {fileID: 135771016164831980}
+  - component: {fileID: 114425479440332856}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Search
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1664177172468582
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +117,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1523059957144716}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -125,7 +126,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: dad744851e24c4ebeb369caa909f15a2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -171,9 +172,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_color: {r: 0, g: 0, b: 0, a: 0}
-  m_target: []
   m_isChangeColor: 0
-  m_colliderRadius: 0
+  m_colliderRadius: 30
+  keyword: a
+--- !u!114 &114425479440332856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1523059957144716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6874059b5bea846fab3f350c4a9da80a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135108418613304760
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -196,5 +208,5 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 15
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}

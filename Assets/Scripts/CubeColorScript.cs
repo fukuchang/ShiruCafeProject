@@ -21,6 +21,7 @@ public class CubeColorScript : MonoBehaviour {
 	void Start () {
         m_material = this.GetComponent<Renderer>().material;
         m_preColor = m_color;
+        m_denominator = 30; //膨張するSphereの最大半径を入れる
 	}
 
 	void Update () {
@@ -32,8 +33,10 @@ public class CubeColorScript : MonoBehaviour {
 
     //遠くなればなるほどCubeの伝播された色が薄くなる関数
     void BlendColor(float blendRatio){
-        m_color = m_color + m_color * blendRatio;
-        m_material.DOBlendableColor(m_color, m_changeSpeed * blendRatio).SetEase(Ease.InQuart);
+        m_color = m_color + m_color * (blendRatio*10);
+        m_material.color = m_color;
+        //m_material.DOBlendableColor(m_color, m_changeSpeed).SetEase(Ease.InQuart); //こっちは遅延を取り除いてます
+        //m_material.DOBlendableColor(m_color, m_changeSpeed * blendRatio).SetEase(Ease.InQuart); //遅延あり
         m_changedColor = m_color;
         m_preColor = m_color;
     }

@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\SearchCubeScript.cs" />
     <Compile Include="Assets\Scripts\SpawnCubeScript.cs" />
     <Compile Include="Assets\Scripts\SphereColorScript.cs" />
+    <Compile Include="Assets\Scripts\SphereTriggerScript.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

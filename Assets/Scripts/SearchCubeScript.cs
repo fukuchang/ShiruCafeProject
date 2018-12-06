@@ -18,7 +18,8 @@ public class SearchCubeScript : MonoBehaviour {
             CCS = gameObject.GetComponent<CubeColorScript>();
             SCS = col.gameObject.transform.parent.GetComponent<SphereColorScript>();
 
-            CCS.m_denominator = SCS.m_colliderRadius;
+            //CCS.m_denominator = SCS.m_colliderRadius;
+            //CCS.m_denominator = col.gameObject.transform.localScale.x / 2;
             CCS.distance = diffPos.magnitude;
             CCS.m_color = SCS.m_color;
 

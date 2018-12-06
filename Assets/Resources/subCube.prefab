@@ -24,8 +24,8 @@ GameObject:
   - component: {fileID: 65952040625519448}
   - component: {fileID: 114881484468579542}
   - component: {fileID: 114431389476439886}
-  - component: {fileID: 114271411651947372}
   - component: {fileID: 54772552461856140}
+  - component: {fileID: 114184771449662612}
   m_Layer: 0
   m_Name: subCube
   m_TagString: ColorCube
@@ -115,7 +115,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114271411651947372
+--- !u!114 &114184771449662612
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

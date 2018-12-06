@@ -44,7 +44,7 @@ public class SphereColorScript : MonoBehaviour {
 
         if(m_preColor != m_color){
             m_isChangeColor = true;
-            childSphere.SetActive(true);
+            //childSphere.SetActive(true);
             m_colliderRadius = m_sphereCollider.radius;
             m_Material.DOBlendableColor(m_color, 5).SetEase(Ease.OutSine);
             m_preColor = m_color;
@@ -55,7 +55,7 @@ public class SphereColorScript : MonoBehaviour {
     //あえて一瞬じゃなく0.5秒待機しています
     IEnumerator Wait(){
         yield return new WaitForSeconds(0.5f);
-        childSphere.SetActive(false);
+        //childSphere.SetActive(false);
     }
 
     //Test Code
