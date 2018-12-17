@@ -11,6 +11,7 @@ public class SearchCubeScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider col){
         if(col.tag == "Search"){
+            Debug.Log("Trigger");
             Vector3 cubePos = gameObject.transform.position;
             Vector3 spherePos = col.gameObject.transform.position;
             Vector3 diffPos = cubePos - spherePos;

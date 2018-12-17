@@ -33,6 +33,19 @@ public class SphereColorScript : MonoBehaviour {
         if (Input.GetKeyDown(keyword))
         {
             m_color = Test_ChangeRndColor();
+            //m_color = LeastColor(m_color);
+            if (m_color.r > m_color.g && m_color.g > m_color.b)
+            {
+                m_color.b = 0;
+            }
+            else if (m_color.g > m_color.b && m_color.b > m_color.r)
+            {
+                m_color.r = 0;
+            }
+            else if (m_color.b > m_color.r && m_color.r > m_color.g)
+            {
+                m_color.b = 0;
+            }
         }
         //
 
@@ -65,8 +78,13 @@ public class SphereColorScript : MonoBehaviour {
         testColor.g = Random.Range(0f, 1f);
         testColor.b = Random.Range(0f, 1f);
         testColor.a = 1f;
+
+        float color_r = testColor.r;
+        float color_g = testColor.g;
+        float color_b = testColor.b;
         return testColor;
     }
+
     //
 
     /*

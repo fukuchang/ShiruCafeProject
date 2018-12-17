@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{1B3B8843-8FDB-CFC9-E3A7-19F3E765AE29}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SphereTriggerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SphereColorScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/SphereColorScript.cs" Line="58" Column="11" />
-      <File FileName="Assets/Scripts/CubeColorScript.cs" Line="12" Column="31" />
+      <File FileName="Assets/Scripts/SphereColorScript.cs" Line="87" Column="1" />
+      <File FileName="Assets/Scripts/CubeColorScript.cs" Line="39" Column="11" />
       <File FileName="Assets/Scripts/MovingCubeScript.cs" Line="14" Column="36" />
-      <File FileName="Assets/Scripts/SpawnCubeScript.cs" Line="19" Column="105" />
+      <File FileName="Assets/Scripts/SpawnCubeScript.cs" Line="34" Column="67" />
       <File FileName="Assets/Scripts/DestroyCubeScript.cs" Line="7" Column="22" />
-      <File FileName="Assets/Scripts/SearchCubeScript.cs" Line="16" Column="51" />
-      <File FileName="Assets/Scripts/SphereTriggerScript.cs" Line="28" Column="89" />
+      <File FileName="Assets/Scripts/SearchCubeScript.cs" Line="14" Column="34" />
+      <File FileName="Assets/Scripts/SphereTriggerScript.cs" Line="39" Column="71" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
