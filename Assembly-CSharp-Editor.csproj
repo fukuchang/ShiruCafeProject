@@ -392,6 +392,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -430,6 +433,18 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{1B3B8843-8FDB-CFC9-E3A7-19F3E765AE29}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{253704BD-1C1F-FC0F-77E3-DBAA7C45EB40}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.csproj">
+      <Project>{94310D3F-620C-74B5-E5CA-4BC26A631311}</Project>
+      <Name>UniRx.Async</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.Editor.csproj">
+      <Project>{361D3EB0-002B-414F-4F31-283DA7F01F8D}</Project>
+      <Name>UniRx.Async.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -68,6 +68,8 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Nodejs\ColorDataManager.cs" />
+    <Compile Include="Assets\Nodejs\Receive.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -115,6 +117,7 @@
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\CubeColorScript.cs" />
     <Compile Include="Assets\Scripts\DestroyCubeScript.cs" />
+    <Compile Include="Assets\Scripts\FireColorScript.cs" />
     <Compile Include="Assets\Scripts\MovingCubeScript.cs" />
     <Compile Include="Assets\Scripts\SearchCubeScript.cs" />
     <Compile Include="Assets\Scripts\SpawnCubeScript.cs" />
@@ -392,6 +395,9 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/fukudaakihisa/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
     </Reference>
@@ -419,6 +425,20 @@
     <Reference Include="Boo.Lang">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{253704BD-1C1F-FC0F-77E3-DBAA7C45EB40}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.csproj">
+      <Project>{94310D3F-620C-74B5-E5CA-4BC26A631311}</Project>
+      <Name>UniRx.Async</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.Async.Editor.csproj">
+      <Project>{361D3EB0-002B-414F-4F31-283DA7F01F8D}</Project>
+      <Name>UniRx.Async.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -9,17 +9,22 @@ public class SphereColorScript : MonoBehaviour {
     public bool m_isChangeColor = false; //色が変わったかどうかの真偽値
     public float m_colliderRadius; //色を変えるCubeを認識どこまで認識するか(Colliderの半径)
     public string keyword; //Test Code キーボード用の文字
+    public GameObject System;
+    public int m_Num;
 
     Material m_Material;
     Color m_preColor; //変わる前の色
     GameObject childSphere;
     SphereCollider m_sphereCollider;
+    ColorDataManager CDM;
+
 
 	void Awake () {
         m_Material = this.GetComponent<Renderer>().material;
         m_preColor = m_color;
         childSphere = gameObject.transform.Find("Sphere").gameObject;
         m_sphereCollider = childSphere.GetComponent<SphereCollider>();
+        CDM = System.GetComponent<ColorDataManager>();
     }
 
 	void Update () {
@@ -29,24 +34,29 @@ public class SphereColorScript : MonoBehaviour {
             StartCoroutine("Wait");
         }
 
-        //Test Code
-        if (Input.GetKeyDown(keyword))
-        {
-            m_color = Test_ChangeRndColor();
-            //m_color = LeastColor(m_color);
-            if (m_color.r > m_color.g && m_color.g > m_color.b)
-            {
-                m_color.b = 0;
-            }
-            else if (m_color.g > m_color.b && m_color.b > m_color.r)
-            {
-                m_color.r = 0;
-            }
-            else if (m_color.b > m_color.r && m_color.r > m_color.g)
-            {
-                m_color.b = 0;
-            }
+        if(m_preColor != CDM.cols[m_Num]){
+            m_color = CDM.cols[m_Num];
+            Debug.Log(m_color);
         }
+
+        //Test Code
+        //if (Input.GetKeyDown(keyword))
+        //{
+        //    m_color = Test_ChangeRndColor();
+        //    //m_color = LeastColor(m_color);
+        //    if (m_color.r > m_color.g && m_color.g > m_color.b)
+        //    {
+        //        m_color.b = 0;
+        //    }
+        //    else if (m_color.g > m_color.b && m_color.b > m_color.r)
+        //    {
+        //        m_color.r = 0;
+        //    }
+        //    else if (m_color.b > m_color.r && m_color.r > m_color.g)
+        //    {
+        //        m_color.b = 0;
+        //    }
+        //}
         //
 
         //--- ここにespで取得したカラー値を入れる
