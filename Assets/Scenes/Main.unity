@@ -534,6 +534,7 @@ GameObject:
   - component: {fileID: 920954239}
   - component: {fileID: 920954238}
   - component: {fileID: 920954241}
+  - component: {fileID: 920954242}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -613,6 +614,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 5299bffddb38b4c97a0aa538943754b4, type: 2}
+--- !u!114 &920954242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 920954237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab85bd0d3ddc47728da98a97b996d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolator: 0
+  _target: {fileID: 0}
+  _targets:
+  - {fileID: 1344109172}
+  - {fileID: 249055348}
+  - {fileID: 1515608532}
+  - {fileID: 758181249}
+  _interval: 60
+  _anim:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _radius: 50
+  isInterpolation: 1
 --- !u!4 &1121879775 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4921346641059664, guid: 7214fcacd920e4e75821792c722f5c6f,
