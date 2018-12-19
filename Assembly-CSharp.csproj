@@ -68,7 +68,6 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\Follow.cs" />
     <Compile Include="Assets\Nodejs\ColorDataManager.cs" />
     <Compile Include="Assets\Nodejs\Receive.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
@@ -119,7 +118,6 @@
     <Compile Include="Assets\Scripts\CubeColorScript.cs" />
     <Compile Include="Assets\Scripts\DestroyCubeScript.cs" />
     <Compile Include="Assets\Scripts\FireColorScript.cs" />
-    <Compile Include="Assets\Scripts\FireColorScriptPre.cs" />
     <Compile Include="Assets\Scripts\FireTriggerScript.cs" />
     <Compile Include="Assets\Scripts\MovingCubeScript.cs" />
     <Compile Include="Assets\Scripts\SearchCubeScript.cs" />

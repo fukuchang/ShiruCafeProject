@@ -33,9 +33,16 @@ public class ColorDataManager : MonoBehaviour
 				if (c.Length == 3)
 				{
                     Debug.Log(c[0] + "," + c[1] + "," + c[2] + "," + i.ToString());
-					cols[i] = new Color(float.Parse(c[0]) / 255.0f,
-						float.Parse(c[1]) / 255.0f,
-						float.Parse(c[2]) / 255.0f,
+                    float max = Mathf.Max(float.Parse(c[0]), float.Parse(c[1]), float.Parse(c[2]));
+                    float[] parse_c = new float[3];
+                    for (int j = 0; j < 3; j++){
+                        if(max == parse_c[j]){
+                            parse_c[j] = 255;
+                        }
+                    }
+                    cols[i] = new Color(parse_c[0] / 255.0f,
+                                        parse_c[1] / 255.0f,
+                                        parse_c[2] / 255.0f,
 						1.0f);
 					}
 			}
