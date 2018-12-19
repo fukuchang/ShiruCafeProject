@@ -43,7 +43,7 @@ public class CubeColorScript : MonoBehaviour {
         main.startColor = m_color;
         Gradient grad = new Gradient();
         grad.SetKeys(new GradientColorKey[] { /*new GradientColorKey(m_color, 0f), */new GradientColorKey(m_color, 1f) },
-                     new GradientAlphaKey[] { new GradientAlphaKey(1.0f, 0f), new GradientAlphaKey(1.0f, 1f) });
+                     new GradientAlphaKey[] { new GradientAlphaKey(1.0f, 0f), new GradientAlphaKey(1.0f, 1.0f) });
         Debug.Log(m_color);
         col.color = grad;
         //m_material.DOBlendableColor(m_color, m_changeSpeed).SetEase(Ease.InQuart); //こっちは遅延を取り除いてます

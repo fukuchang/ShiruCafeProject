@@ -32,7 +32,7 @@ public class ColorDataManager : MonoBehaviour
 				Debug.Log("---------length"+c.Length);
 				if (c.Length == 3)
 				{
-					Debug.Log(c[0] + "," + c[1] + "," + c[2]);
+                    Debug.Log(c[0] + "," + c[1] + "," + c[2] + "," + i.ToString());
 					cols[i] = new Color(float.Parse(c[0]) / 255.0f,
 						float.Parse(c[1]) / 255.0f,
 						float.Parse(c[2]) / 255.0f,

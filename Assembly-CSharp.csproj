@@ -118,6 +118,8 @@
     <Compile Include="Assets\Scripts\CubeColorScript.cs" />
     <Compile Include="Assets\Scripts\DestroyCubeScript.cs" />
     <Compile Include="Assets\Scripts\FireColorScript.cs" />
+    <Compile Include="Assets\Scripts\FireColorScriptPre.cs" />
+    <Compile Include="Assets\Scripts\FireTriggerScript.cs" />
     <Compile Include="Assets\Scripts\MovingCubeScript.cs" />
     <Compile Include="Assets\Scripts\SearchCubeScript.cs" />
     <Compile Include="Assets\Scripts\SpawnCubeScript.cs" />
@@ -386,6 +388,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween">
       <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
@@ -394,9 +399,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/fukudaakihisa/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

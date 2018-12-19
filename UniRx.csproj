@@ -539,6 +539,9 @@
     <Reference Include="UnityEditor.Facebook.Extensions">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween">
       <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
@@ -562,9 +565,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Assets/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

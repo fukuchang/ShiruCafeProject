@@ -21,10 +21,10 @@ public class SphereColorScript : MonoBehaviour {
 
 	void Awake () {
         m_Material = this.GetComponent<Renderer>().material;
-        m_preColor = m_color;
         childSphere = gameObject.transform.Find("Sphere").gameObject;
         m_sphereCollider = childSphere.GetComponent<SphereCollider>();
-        CDM = System.GetComponent<ColorDataManager>();
+        CDM = System.gameObject.GetComponent<ColorDataManager>();
+        m_preColor = CDM.cols[m_Num];
     }
 
 	void Update () {

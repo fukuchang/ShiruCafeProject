@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{1B3B8843-8FDB-CFC9-E3A7-19F3E765AE29}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Nodejs/Receive.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SearchCubeScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/SphereColorScript.cs" Line="42" Column="14" />
-      <File FileName="Assets/Scripts/MovingCubeScript.cs" Line="14" Column="36" />
-      <File FileName="Assets/Scripts/SpawnCubeScript.cs" Line="34" Column="67" />
-      <File FileName="Assets/Scripts/DestroyCubeScript.cs" Line="7" Column="22" />
-      <File FileName="Assets/Scripts/SearchCubeScript.cs" Line="14" Column="34" />
-      <File FileName="Assets/Scripts/SphereTriggerScript.cs" Line="39" Column="71" />
-      <File FileName="Assets/Scripts/FireColorScript.cs" Line="59" Column="13" />
-      <File FileName="Assets/Nodejs/ColorDataManager.cs" Line="40" Column="6" />
-      <File FileName="Assets/Nodejs/Receive.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CubeColorScript.cs" Line="39" Column="11" NotebookId="1" />
+      <File FileName="Assets/Nodejs/ColorDataManager.cs" Line="35" Column="66" />
+      <File FileName="Assets/Scripts/FireTriggerScript.cs" Line="13" Column="23" />
+      <File FileName="Assets/Scripts/CubeColorScript.cs" Line="27" Column="41" NotebookId="1" />
+      <File FileName="Assets/Scripts/SphereTriggerScript.cs" Line="23" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/SphereColorScript.cs" Line="36" Column="9" NotebookId="1" />
+      <File FileName="Assets/Scripts/FireColorScriptPre.cs" Line="28" Column="24" NotebookId="1" />
+      <File FileName="Assets/Scripts/FireColorScript.cs" Line="5" Column="29" NotebookId="1" />
+      <File FileName="Assets/Scripts/SearchCubeScript.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
