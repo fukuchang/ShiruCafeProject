@@ -37,12 +37,13 @@ public class FireTriggerScript : MonoBehaviour {
         }
 
         if(m_isExpansion){
-            if (gameObject.transform.localScale.x >= 30f)
+            if (gameObject.transform.localScale.x >= 60f)
             {
                 m_isExpansion = false;
                 gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
             }
-            gameObject.transform.localScale += new Vector3(5f, 5f, 5f) * Time.deltaTime;
+            gameObject.transform.localScale += new Vector3(10f, 10f, 10f) * Time.deltaTime;
+            gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x , 0.1f, gameObject.transform.localScale.z);
         }
 	}
 }

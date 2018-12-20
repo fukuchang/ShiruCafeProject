@@ -98,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1463908516740070}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.43, y: 3.33, z: -0}
+  m_LocalPosition: {x: -28.4, y: 15.2, z: -6.31}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4337687753020278}
@@ -153,7 +153,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1517291123967564}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -209,9 +209,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_color: {r: 1, g: 0.6885808, b: 0, a: 1}
   m_isChangeColor: 0
-  m_colliderRadius: 30
+  m_colliderRadius: 60
   m_System: {fileID: 0}
-  m_Num: 1
+  m_Num: 0
 --- !u!114 &114211231774391442
 MonoBehaviour:
   m_ObjectHideFlags: 1

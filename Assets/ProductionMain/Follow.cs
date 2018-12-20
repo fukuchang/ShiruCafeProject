@@ -117,9 +117,9 @@ public class Follow : MonoBehaviour
     private Vector3 NextPos()
     {
 
-        var _nextPos = UnityEngine.Random.insideUnitSphere * _radius;
-        if (_nextPos.y < 0)
-            _nextPos.y = UnityEngine.Random.Range(0.0f, _radius / 2.0f);
+        var _nextPos = target.position + UnityEngine.Random.insideUnitSphere * _radius + new Vector3(0.0f, -10.0f, 0.0f);
+//        if (_nextPos.y < 0)
+//            _nextPos.y = UnityEngine.Random.Range(0.0f, _radius / 2.0f);
         return _nextPos;
     }
 
