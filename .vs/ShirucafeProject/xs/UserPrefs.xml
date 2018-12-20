@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{1B3B8843-8FDB-CFC9-E3A7-19F3E765AE29}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ColorCombinationScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ProductionMain/Additictive.shader">
     <Files>
-      <File FileName="Assets/Nodejs/ColorDataManager.cs" Line="42" Column="22" />
-      <File FileName="Assets/Scripts/FireTriggerScript.cs" Line="44" Column="2" />
-      <File FileName="Assets/Scripts/CubeColorScript.cs" Line="27" Column="41" NotebookId="1" />
+      <File FileName="Assets/Nodejs/ColorDataManager.cs" Line="35" Column="84" />
+      <File FileName="Assets/Scripts/FireTriggerScript.cs" Line="35" Column="38" />
+      <File FileName="Assets/Scripts/FireColorScript.cs" Line="39" Column="1" />
+      <File FileName="Assets/Scripts/SpawnCubeScript.cs" Line="7" Column="30" />
+      <File FileName="Assets/ProductionMain/Additictive.shader" Line="4" Column="6" />
+      <File FileName="Assets/Scripts/CubeColorScript.cs" Line="15" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/SphereTriggerScript.cs" Line="23" Column="1" NotebookId="1" />
       <File FileName="Assets/Scripts/SphereColorScript.cs" Line="92" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scripts/FireColorScript.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scripts/SearchCubeScript.cs" Line="28" Column="39" NotebookId="1" />
-      <File FileName="Assets/Scripts/ColorCombinationScript.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/SearchCubeScript.cs" Line="7" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/ColorCombinationScript.cs" Line="78" Column="22" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

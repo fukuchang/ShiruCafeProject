@@ -115,6 +115,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\ProductionMain\Follow.cs" />
     <Compile Include="Assets\ProductionMain\PostProcessingVolume\PostProcessing Volume\Example\ExampleSceneScripts\FPSViewer.cs" />
     <Compile Include="Assets\ProductionMain\PostProcessingVolume\PostProcessing Volume\Example\ExampleSceneScripts\MouseCamera.cs" />
     <Compile Include="Assets\ProductionMain\PostProcessingVolume\PostProcessing Volume\Scripts\PostProcessVolume.cs" />
@@ -175,6 +176,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\Lanthanum\SemiTransparent.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\ProductionMain\Additictive.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -184,14 +186,14 @@
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/fukudaakihisa/Desktop/MAP/知るカフェ/ShirucafeProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

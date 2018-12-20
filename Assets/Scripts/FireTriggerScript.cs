@@ -23,13 +23,17 @@ public class FireTriggerScript : MonoBehaviour {
 	void Update () {
         if(FCS.m_isChangeColor && !m_isExpansion){
             m_preColor = FCS.m_color;
-            var col = ps.colorOverLifetime;
-            var main = ps.main;
-            Gradient grad = new Gradient();
-            grad.SetKeys(new GradientColorKey[] { new GradientColorKey(m_aftColor, 1f) },
-                         new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) });
-            col.color = grad;
-            m_isExpansion = true;
+            //var col = ps.colorOverLifetime;
+            //var main = ps.main;
+            //Gradient grad = new Gradient();
+            //grad.SetKeys(new GradientColorKey[] { new GradientColorKey(m_aftColor, 1f) },
+            //             new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) });
+            //col.color = grad;
+            if(m_preColor.r == 1f && m_preColor.g == 1f && m_preColor.b == 0f){
+                m_isExpansion = false;
+            }else{
+                m_isExpansion = true;
+            }
         }
 
         if(m_isExpansion){

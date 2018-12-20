@@ -40,7 +40,6 @@ GameObject:
   - component: {fileID: 4454890039799960}
   - component: {fileID: 33510011907448900}
   - component: {fileID: 23870160742595956}
-  - component: {fileID: 114697527946394858}
   m_Layer: 0
   m_Name: baroon_basket
   m_TagString: Untagged
@@ -99,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1758900183144498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.43, y: 3.33, z: -0}
+  m_LocalPosition: {x: -11.43, y: 3.33, z: -25.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4454890039799960}
@@ -223,23 +222,6 @@ MonoBehaviour:
   m_isChangeColor: 0
   m_colliderRadius: 30
   m_System: {fileID: 0}
-  m_Num: 9
---- !u!114 &114697527946394858
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1568395942049234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46a833ad9c33140358f25dd9e958834a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_color: {r: 0, g: 0, b: 0, a: 0}
-  m_isChangeColor: 0
-  m_colliderRadius: 30
-  keyword: 
-  System: {fileID: 0}
   m_Num: 9
 --- !u!135 &135036130651009212
 SphereCollider:
@@ -1026,7 +1008,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 30
+      scalar: 15
       minScalar: 10
       maxCurve:
         serializedVersion: 2
