@@ -5017,6 +5017,18 @@ Prefab:
       propertyPath: m_Name
       value: fire_baroon (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1513067608061266, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1758900183144498, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568395942049234, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
   m_IsPrefabAsset: 0
@@ -5036,7 +5048,7 @@ GameObject:
   - component: {fileID: 261296453}
   - component: {fileID: 261296455}
   - component: {fileID: 261296454}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: paper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5116,7 +5128,7 @@ GameObject:
   - component: {fileID: 368554730}
   - component: {fileID: 368554729}
   - component: {fileID: 368554728}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ColliderCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5367,6 +5379,18 @@ Prefab:
     - target: {fileID: 1758900183144498, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
       propertyPath: m_Name
       value: fire_baroon (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568395942049234, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513067608061266, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1758900183144498, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
@@ -5654,14 +5678,14 @@ MonoBehaviour:
   - {fileID: 249055348}
   - {fileID: 1515608532}
   - {fileID: 758181249}
-  _interval: 60
+  _interval: 120
   _anim:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _radius: 25
+  _radius: 35
   isInterpolation: 1
 --- !u!1 &970614313
 GameObject:
@@ -5771,7 +5795,7 @@ GameObject:
   - component: {fileID: 1130566990}
   - component: {fileID: 1130566993}
   - component: {fileID: 1130566992}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10779,6 +10803,22 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1442465439312532, guid: 9364566cacb361043889df7ff5f9125c, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1133438124407374, guid: 9364566cacb361043889df7ff5f9125c, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217927818604194, guid: 9364566cacb361043889df7ff5f9125c, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1518578970433264, guid: 9364566cacb361043889df7ff5f9125c, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9364566cacb361043889df7ff5f9125c, type: 2}
   m_IsPrefabAsset: 0
@@ -10840,6 +10880,18 @@ Prefab:
       propertyPath: m_Name
       value: fire_baroon (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1513067608061266, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1758900183144498, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568395942049234, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
   m_IsPrefabAsset: 0
@@ -10893,6 +10945,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1539267037907024, guid: 04b318dbd6653404cbc483605b43dfc3, type: 2}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539267037907024, guid: 04b318dbd6653404cbc483605b43dfc3, type: 2}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10951,6 +11007,18 @@ Prefab:
       propertyPath: m_Name
       value: fire_baroon (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1758900183144498, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1568395942049234, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1513067608061266, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d7e04abe6b314542ab70bb5ac90bb60, type: 2}
   m_IsPrefabAsset: 0
@@ -10996,6 +11064,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4660698264945286, guid: 04b318dbd6653404cbc483605b43dfc3, type: 2}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539267037907024, guid: 04b318dbd6653404cbc483605b43dfc3, type: 2}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11711,15 +11783,15 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 5
     enabled: 1
-    type: 4
+    type: 5
     angle: 25
     length: 5
-    boxThickness: {x: 0, y: 0, z: 0}
+    boxThickness: {x: 1, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 1}
+    m_Scale: {x: 50, y: 50, z: 50}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -11861,7 +11933,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 45
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -15664,7 +15736,7 @@ GameObject:
   - component: {fileID: 2060027962}
   - component: {fileID: 2060027961}
   - component: {fileID: 2060027960}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LantanumA
   m_TagString: ColorCube
   m_Icon: {fileID: 0}
